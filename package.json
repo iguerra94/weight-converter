@@ -1,0 +1,33 @@
+{
+  "name": "@ivanguerra09/weight-converter",
+  "version": "0.1.0",
+  "description": "Conversor de unidades de peso desarrollado como parte de los desafíos del Curso de Fundamentos de JavaScript de Platzi",
+  "main": "dist/src/weightConverter.js",
+  "scripts": {
+    "build": "babel src/weightConverter.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanguerra09/weight-converter.git"
+  },
+  "keywords": [
+    "weight-converter",
+    "platzi",
+    "fundamentos",
+    "javascript",
+    "js"
+  ],
+  "author": "Ivan Guerra <ivanguerra09@gmail.com> (https://twitter.com/iguerra94)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivanguerra09/weight-converter/issues"
+  },
+  "homepage": "https://github.com/ivanguerra09/weight-converter#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
